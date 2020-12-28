@@ -1,0 +1,11 @@
+/.vscode
+*.cmd
+*.o
+*.ko
+*.mod.c
+*.mod
+mkfs-dadfs
+Module.symvers
+modules.order
+disk
+journal

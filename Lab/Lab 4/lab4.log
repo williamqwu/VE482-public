@@ -1,0 +1,22 @@
+sqlite3 l4.db
+
+DROP TABLE db;
+CREATE TABLE db
+(
+  
+);
+CREATE TABLE db
+(
+  hash TEXT NOT NULL,
+  name TEXT NOT NULL,
+  dates TEXT,
+  tstamp INT
+);
+.separator "|"
+.import db.psv db
+.ipmort timestamp.psv time_stamp
+select * from db limit 5;
+select * from db where name='Linus Torvalds' limit 5;
+SeLECT COUNT(name) FROM db WHERE name == 'Linus Torvalds';
+select name, max(cnt) from (select name, COUNT(name) as cnt from db group by name);
+DESC
