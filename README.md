@@ -1,5 +1,6 @@
 # VE482-public
-*A collection of materials and self-written solutions for the course Introduction to Operating System (VE482-FA20) in UMJI, taught by prof. Manuel Charlemagne.
+*A collection of materials and self-written solutions for the course Introduction to Operating System (VE482-FA20) in UMJI, taught by prof. Manuel Charlemagne.*
+
 ## Overview
 ### Lab
 | Index | Major Focus | Lab Design | Story |
@@ -10,10 +11,10 @@
 | 04    | database, gdb | database query | O |
 | 05    | layer programming, libraries | practice layer programming | - |
 | 06    | plugin structure | open-source plugin software contribution | - |
-| 07    | linux kernel source code, kernel module | dadfs | O |
-| 08    | virtual memory, page-replacement algorithm, Minix3 memory management | MRU | O |
-| 09    | linux kernel module programming, char device driver, user/kernel communication | dice | O |
-| 10    | linux kernel module programming, basic security, linux system management | hacking | O |
+| 07    | linux kernel source code, kernel module | dadfs (file system code alternation) | O |
+| 08    | virtual memory, page-replacement algorithm, Minix3 memory management | Minix3 MRU algorithm implementation | O |
+| 09    | linux kernel module programming, char device driver, user/kernel communication | dice (kernel char device) | O |
+| 10    | linux kernel module programming, basic security, linux system management | hacking scripts | O |
 | 11    | filesystem, userspace fs programming, FUSE | lemondb alternation | O |
 
 ### Homework
