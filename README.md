@@ -18,9 +18,33 @@
 | 11    | filesystem, userspace fs programming, FUSE | lemondb alternation | O |
 
 ### Homework
-| Index | Category | Major Focus | MISC |
-| ----- | -------- | ----------- | ---- |
-// this section is to be added.
+| Index | Major Focus |  MISC Practice | MISC Research  |
+| ----- | ----------- | ---- | ---- |
+| 1 | hardware overview | Unix shell basics| - |
+| 2 | multiprogramming | Minix 3 OS basics (p3) | - |
+| 3 | process and threads | C function pointer | POSIX standard |
+| 4 | interprocess communication | race condition demo, semaphore implementation | - |
+| 5 | scheduling, deadlock | banker's algorithm | Minix 3 scheduling (p3) |
+| 6 | memory management, security | thrashing demo | Meltdown & Spectre, Minix 3 memory management (p3), Dirty COW bug |
+| 7 | memory management, filesystem | Minix 3 system call (p3) | ext2 filesystem |
+| 8 | IO, filesystem, security, multiprocessor | kernel panic demo | linux firewall |
+
+### Project 
+- p1: shell implementation (`mumsh`)
+    - style: solo-project
+    - codebase: null
+    - evaluation: JOJ test required for correctness
+    - coverage: c-programing, string parsing, shell features, interprocess communication, IO, etc.
+- p2: multi-threading database implementation (`Lemonion::lemonDB`)
+    - style: 2+2 team-project
+    - codebase: provided code template
+    - evaluation: JOJ test required for correctness and efficiency
+    - coverage: cpp-programming, string parsing, multi-threading, etc.
+- p3: Minix3 scheduler implementation (`CoolZone::Minix3`)
+    - style: 2+2 temp-project
+    - codebase: provided Minix3 source code
+    - evaluation: project demonstration required for functionality and performance
+    - coverage: c-kernel-programming, os debugging, scheduling, etc.
 
 ## Honor Code
 If there is similar course materials assigned in the future, it is the responsibility of JI students not to copy or modify these codes, or MD/PDF files because it is against the Honor Code. The owner of this repository doesn't take any commitment for other's faults.
