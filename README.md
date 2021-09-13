@@ -41,10 +41,13 @@
     - evaluation: JOJ test required for correctness and efficiency
     - coverage: cpp-programming, string parsing, multi-threading, etc.
 - p3: Minix3 scheduler implementation (`CoolZone::Minix3`)
-    - style: 2+2 temp-project
+    - style: 2+2 team-project
     - codebase: provided Minix3 source code
     - evaluation: project demonstration required for functionality and performance
     - coverage: c-kernel-programming, os debugging, scheduling, etc.
 
 ## Honor Code
 If there is similar course materials assigned in the future, it is the responsibility of JI students not to copy or modify these codes, or MD/PDF files because it is against the Honor Code. The owner of this repository doesn't take any commitment for other's faults.
+
+## Contribution
+Help yourself to [raise any issues](https://github.com/MatrixPecker/VE482-public/issues) if you find any mistake in the solution.
