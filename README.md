@@ -1,7 +1,7 @@
 # VE482-public
 *A collection of materials and self-written solutions for the course Introduction to Operating System (VE482-FA20) in UMJI, taught by prof. Manuel Charlemagne.*
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Matrixpecker.VE482-public)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Matrixpecker.VE482-public&left_color=gray&right_color=blue)
 
 ## Overview
 ### Lab
