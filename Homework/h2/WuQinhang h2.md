@@ -45,7 +45,7 @@ in `/usr/src/servers/is/dmp_kernel.c`, added:[^3]
 /* proccnt_dmp */
 void proccnt_dmp(){
 	struct mproc *pc;
-  int cnt;
+  int cnt = 0;
   if (getsysinfo(PM_PROC_NR, SI_PROC_TAB, mproc, sizeof(mproc)) != OK){
     printf("Get Process Count Error.\n");
     return;
